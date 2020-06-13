@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/FakePersonDataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,5 +123,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="206" y="35" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1592035580824" />
+    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1592039317479">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1592039317479" />
   </component>
 </project>

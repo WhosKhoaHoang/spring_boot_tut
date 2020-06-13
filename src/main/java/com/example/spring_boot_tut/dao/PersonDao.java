@@ -8,7 +8,8 @@ public interface PersonDao {
 
   int insertPerson(UUID id, Person person);
 
-  default int addPerson(Person person) {
+  default int insertPerson(Person person) {
+    // It's of course a bad idea to just randomly generate an ID.
     UUID id = UUID.randomUUID();
     return insertPerson(id, person);
   }
