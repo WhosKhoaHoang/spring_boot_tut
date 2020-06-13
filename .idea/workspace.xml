@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/FakePersonDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,10 +99,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592037365132">
+    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592038486515">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1592037365132" />
+    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1592038486515" />
     <state width="1358" height="130" key="GridCell.Tab.0.bottom" timestamp="1592035486953">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
