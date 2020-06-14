@@ -12,6 +12,11 @@ import org.springframework.stereotype.Repository;
 //         plish different things! See this SO discussion:
 //         https://stackoverflow.com/questions/15347136/
 
+// THINK: This class, along with PersonService in PersonService.java,
+//        is like a layer in the encapsulation chain for the business
+//        logic (or the code that processes all the data) for an API
+//        call (whose endpoints are defined in PersonController.java).
+
 // Declaring this @Component annotation here his is how we
 // tell Spring that we want this class to be instantiated as
 // a bean so that we can inject it into other classes. Note
@@ -29,5 +34,10 @@ public class FakePersonDataAccessService implements PersonDao {
   public int insertPerson(UUID id, Person person) {
     DB.add(new Person(id, person.getName()));
     return 1;
+  }
+
+  @Override
+  public List<Person> selectAllPeople() {
+    return DB;
   }
 }

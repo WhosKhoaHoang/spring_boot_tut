@@ -2,11 +2,15 @@ package com.example.spring_boot_tut.api;
 
 import com.example.spring_boot_tut.model.Person;
 import com.example.spring_boot_tut.service.PersonService;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+// TODO: Implement PATCH and DELETE
 
 // It is customary to call the class for
 // the API a "controller".
@@ -30,5 +34,10 @@ public class PersonController {
     // incoming HTTP request and put that inside of this person
     // object
     personService.addPerson(person);
+  }
+
+  @GetMapping
+  public List<Person> getAllPeople() {
+    return personService.getAllPeople();
   }
 }
