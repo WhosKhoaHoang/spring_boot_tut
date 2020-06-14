@@ -8,13 +8,16 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// TODO: Implement PATCH and DELETE
+
+// TODO: Implement unit tests for these endpoints!
 
 // It is customary to call the class for
 // the API a "controller".
@@ -55,8 +58,15 @@ public class PersonController {
   }
 
   @DeleteMapping(path = "{id}")
-  public int deletePersonById(@PathVariable("id") UUID id) {
-    return personService.deletePersonById(id);
+  public void deletePersonById(@PathVariable("id") UUID id) {
+    personService.deletePersonById(id);
+  }
+
+
+  @PutMapping(path = "{id}")
+  public void updatePersonById(@PathVariable("id") UUID id,
+                               @RequestBody Person personToUpdate) {
+    personService.updatePersonById(id, personToUpdate);
   }
 
 }
