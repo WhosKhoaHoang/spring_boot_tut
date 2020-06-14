@@ -3,6 +3,8 @@ package com.example.spring_boot_tut.service;
 import com.example.spring_boot_tut.dao.PersonDao;
 import com.example.spring_boot_tut.model.Person;
 import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -46,5 +48,11 @@ public class PersonService {
 
   public List<Person> getAllPeople() {
     return personDao.selectAllPeople();
+  }
+
+  // The reason for using Optional<Person> is that there may
+  // or may not be a result for the given ID!
+  public Optional<Person> selectPersonById(UUID id) {
+    return personDao.selectPersonById(id);
   }
 }
