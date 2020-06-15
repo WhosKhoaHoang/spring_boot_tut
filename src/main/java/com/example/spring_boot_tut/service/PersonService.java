@@ -10,6 +10,15 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 
+// ===== IMPORTANT =====
+//. Example of dependency injection:
+// - Let’s say you’re working with two different databases: fakeDB and postgresDB
+// - You’ll need to create two different classes that implements the app’s DAO interface.
+//   In this case, your classes are PersonDataAccessService and FakePersonDataAccessService.
+// - In the class that represents the Service aspect of your application (in this case, defined
+//   in PersonService.java), simply change the string that you’ve set in the @Qualifier annotation,
+//   which you probably declared in the Service’s constructor method.
+
 // THINK: Generally, a service class contains the business
 //        logic that the APIs will use. It's a good way to
 //        organize the code so that we don't have to define
@@ -31,7 +40,8 @@ public class PersonService {
 
   @Autowired
   public PersonService(@Qualifier("fakeDao") PersonDao personDao) {
-    // Because we may have many different implementations
+  //public PersonService(@Qualifier("postgres") PersonDao personDao) {
+      // Because we may have many different implementations
     // of a PersonDao interface, we need to have a way to
     // distinguish between them. This combination of using
     // the @Autowired and @Qualifier decorators helps us do this.
