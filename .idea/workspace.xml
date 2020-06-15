@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring_boot_tut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring_boot_tut.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +121,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="206" y="49" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1592050126633" />
+    <state x="180" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592221973481">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="180" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1592221973481" />
     <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592205856629">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -120,22 +133,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1592050008425" />
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592209697241">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592222106459">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592209697241" />
-    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592209697240">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592222106459" />
+    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592222106457">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592209697240" />
-    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592209697239">
+    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592222106457" />
+    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592222106457">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592209697239" />
-    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592209697241">
+    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592222106457" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592222106458">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592209697241" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592222106458" />
     <state x="253" y="118" key="Maven.ArtifactSearchDialog" timestamp="1592188909520">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
