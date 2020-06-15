@@ -4,6 +4,7 @@ import com.example.spring_boot_tut.model.Person;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import javax.swing.text.html.Option;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -39,7 +40,18 @@ public class PostgresPersonDataAccessService implements PersonDao {
 
   @Override
   public Optional<Person> selectPersonById(UUID id) {
-    return Optional.empty();
+    final String sql = "SELECT id, name FROM person WHERE id = ?";
+    Person person = jdbcTemplate.queryForObject(
+        sql,
+        new Object[]{id},  // Note that this value gets mapped to ? in the sql query string
+        (resultSet, i) -> {
+          UUID personId = UUID.fromString(resultSet.getString("id"));
+          String name = resultSet.getString("name");
+          return new Person(personId, name);
+        });
+
+    // Say ofNullable() because person could potentially be null
+    return Optional.ofNullable(person);
   }
 
   @Override
