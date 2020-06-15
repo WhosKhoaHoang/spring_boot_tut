@@ -40,8 +40,9 @@ public class PersonService {
 
   @Autowired
   //public PersonService(@Qualifier("fakeDao") PersonDao personDao) {
-  public PersonService(@Qualifier("fakePostgres") PersonDao personDao) {
-      // Because we may have many different implementations
+  //public PersonService(@Qualifier("fakePostgres") PersonDao personDao) {
+  public PersonService(@Qualifier("postgres") PersonDao personDao) {
+    // Because we may have many different implementations
     // of a PersonDao interface, we need to have a way to
     // distinguish between them. This combination of using
     // the @Autowired and @Qualifier decorators helps us do this.
@@ -49,6 +50,9 @@ public class PersonService {
     // to be the name of, say, the DB the DAO is interfacing with.
     // It also needs to match the string passed to the @Repository
     // annotation for the PersonDao interface.
+    // - So basically, I think we need to declare @Autowire along
+    //   with @Qualifier for a method if we expect it be dependency
+    //   injectable,
     this.personDao = personDao;
   }
 

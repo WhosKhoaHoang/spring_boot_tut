@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PersonDataAccessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/datasource/PostgresDatasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/datasource/PostgresDatasource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.spring_boot_tut.SpringBootTutApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.spring_boot_tut.SpringBootTutApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.spring_boot_tut.SpringBootTutApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.spring_boot_tut.SpringBootTutApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,30 +125,30 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1592221973481" />
-    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592205856629">
+    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592223279911">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1592205856629" />
+    <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1592223279911" />
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592050008425">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1592050008425" />
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592222106459">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592226147352">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592222106459" />
-    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592222106457">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592226147352" />
+    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592226147351">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592222106457" />
-    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592222106457">
+    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592226147351" />
+    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592226147350">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592222106457" />
-    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592222106458">
+    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592226147350" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592226147351">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592222106458" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592226147351" />
     <state x="253" y="118" key="Maven.ArtifactSearchDialog" timestamp="1592188909520">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

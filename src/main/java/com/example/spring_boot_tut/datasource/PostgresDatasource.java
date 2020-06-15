@@ -12,8 +12,8 @@ public class PostgresDatasource {
   // . This @Bean annotation makes it so that we instantiate
   //   this HikariDataSource as a bean.
   // . The string passed to @ConfigurationProperties represents
-  //   the hierarchical path specified in application.yml that
-  //   will be applied to this datasource.
+  //   the hierarchical path specified in application.yml whose
+  //   config values will be applied to this datasource.
   // . Without these two annotations, you would get an error
   @Bean
   @ConfigurationProperties("app.datasource")
