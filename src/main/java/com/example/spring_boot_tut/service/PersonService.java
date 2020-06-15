@@ -40,7 +40,7 @@ public class PersonService {
 
   @Autowired
   //public PersonService(@Qualifier("fakeDao") PersonDao personDao) {
-  public PersonService(@Qualifier("postgres") PersonDao personDao) {
+  public PersonService(@Qualifier("fakePostgres") PersonDao personDao) {
       // Because we may have many different implementations
     // of a PersonDao interface, we need to have a way to
     // distinguish between them. This combination of using

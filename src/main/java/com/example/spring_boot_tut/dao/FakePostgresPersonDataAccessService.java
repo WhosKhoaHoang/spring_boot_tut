@@ -8,8 +8,8 @@ import java.util.UUID;
 import org.springframework.stereotype.Repository;
 
 
-@Repository("postgres")
-public class PersonDataAccessService implements PersonDao {
+@Repository("fakePostgres")
+public class FakePostgresPersonDataAccessService implements PersonDao {
 
   @Override
   public int insertPerson(UUID id, Person person) {
