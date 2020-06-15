@@ -5,6 +5,8 @@ import com.example.spring_boot_tut.service.PersonService;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,7 +38,7 @@ public class PersonController {
   }
 
   @PostMapping
-  public void addPerson(@RequestBody Person person) {
+  public void addPerson(@Valid @NotNull @RequestBody Person person) {
     // @RequestBody says that we want to take the body of the
     // incoming HTTP request and put that inside of this person
     // object
@@ -65,7 +67,7 @@ public class PersonController {
 
   @PutMapping(path = "{id}")
   public void updatePersonById(@PathVariable("id") UUID id,
-                               @RequestBody Person personToUpdate) {
+                               @Valid @NotNull @RequestBody Person personToUpdate) {
     personService.updatePersonById(id, personToUpdate);
   }
 

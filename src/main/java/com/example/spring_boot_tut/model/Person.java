@@ -2,9 +2,11 @@ package com.example.spring_boot_tut.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.UUID;
+import javax.validation.constraints.NotBlank;
 
 public class Person {
   private final UUID id;
+  @NotBlank
   private final String name;
 
   // Add the @JsonProperty annotation so that Spring
