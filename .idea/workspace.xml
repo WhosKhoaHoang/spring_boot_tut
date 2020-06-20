@@ -20,10 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile.web" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/api/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/datasource/PostgresDatasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_boot_tut/datasource/PostgresDatasource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring_boot_tut.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/SpringBootTutApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/SpringBootTutApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/api/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/api/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePersonDataAccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PersonDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/datasource/PostgresDatasource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/datasource/PostgresDatasource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.spring_boot_tut.SpringBootTutApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.spring_boot_tut.SpringBootTutApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/SpringBootTutApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/SpringBootTutApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +79,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SpringBootTutApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -118,6 +145,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1592221973481" />
+    <state x="439" y="265" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592623671406">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="439" y="265" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1592623671406" />
     <state x="531" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1592223279911">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -126,22 +157,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1592050008425" />
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592226908673">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592477598551">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592226908673" />
-    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592226908671">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592477598551" />
+    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592477598548">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592226908671" />
-    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592226908670">
+    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592477598548" />
+    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592477598546">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592226908670" />
-    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592226908672">
+    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592477598546" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592477598549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592226908672" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592477598549" />
     <state x="253" y="118" key="Maven.ArtifactSearchDialog" timestamp="1592188909520">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -150,6 +181,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="206" y="35" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1592194607815" />
+    <state x="139" y="119" key="new project wizard" timestamp="1592373707242">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="139" y="119" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1592373707242" />
     <state x="383" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1592195811689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

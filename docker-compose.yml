@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  db:
+    image: test_db:1.0
+    container_name: db
+    environment:
+      POSTGRES_PASSWORD: test123
+    ports:
+      - '5432:5432'
+    expose:
+      - 5432
+  web:
+    image: test_web:1.0
+    container_name: web
+    ports:
+      - '8080:8080'
+    depends_on:
+      - db
+    expose:
+      - 8080
