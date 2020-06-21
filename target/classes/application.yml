@@ -1,6 +1,12 @@
 app:
   datasource:
+    # If testing directly from your IDE, put "localhost" instead
+    # of "db" for the hostname. Putting the name "db" is important
+    # for when you package this application into a JAR file -- that
+    # "db" name corresponds to the name of the database service
+    # specified in docker-compose.yml!
     jdbc-url: jdbc:postgresql://localhost:5432/demo_postgres_db
+    #jdbc-url: jdbc:postgresql://db:5432/demo_postgres_db
     username: postgres
     password: test123
     pool-size: 30

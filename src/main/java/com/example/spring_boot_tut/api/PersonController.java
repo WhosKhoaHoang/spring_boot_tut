@@ -21,6 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 // TODO: Implement unit tests for these endpoints!
 // TODO: Implement the rest of the API methods in PostgresPersonDataAccessService.
+//       - Note that POST'ing a person to the Postgres DB doesn't work (amigoscode
+//         did not go over that in his tutorial. He manually created rows in the
+//         person table from the command line).
 
 // It is customary to call the class for
 // the API a "controller".
