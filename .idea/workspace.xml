@@ -20,31 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile.web" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring_boot_tut.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile.db" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/SpringBootTutApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/SpringBootTutApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/api/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/api/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePersonDataAccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/FakePostgresPersonDataAccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PersonDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/dao/PostgresPersonDataAccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/datasource/PostgresDatasource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/datasource/PostgresDatasource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/spring_boot_tut/service/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_boot_tut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.spring_boot_tut.SpringBootTutApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.spring_boot_tut.SpringBootTutApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/SpringBootTutApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/SpringBootTutApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,22 +136,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1592050008425" />
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592477598551">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592711016660">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592477598551" />
-    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592477598548">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592711016660" />
+    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592711016659">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592477598548" />
-    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592477598546">
+    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592711016659" />
+    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592711016659">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592477598546" />
-    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592477598549">
+    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592711016659" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592711016660">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592477598549" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592711016660" />
     <state x="253" y="118" key="Maven.ArtifactSearchDialog" timestamp="1592188909520">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

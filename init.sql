@@ -1,2 +1,2 @@
-/* Need to create the DB in order to connect to it! */
-CREATE DATABASE demo_postgres_db;
+/* Don't need this script if you use POSTGRES_DB env variable in Dockerfile */
+/* CREATE DATABASE demo_postgres_db; */

@@ -1,8 +1,12 @@
 FROM postgres:alpine
 
-ENV POSTGRES_PASSWORD test123  # The default user is "postgres"
-ENV POSTGRES_DB demo_postgres_db  # Saying this will NOT create the DB!
+# The default user is "postgres"
+ENV POSTGRES_PASSWORD test123
 
-# Include the script that will create the DB we'll be connecting to!
-COPY init.sql /docker-entrypoint-initdb.d/
+# Saying this WILL create the DB
+ENV POSTGRES_DB demo_postgres_db
+
+# Don't actually need to include the script to
+# create a DB if you use POSTGRES_DB
+# COPY init.sql /docker-entrypoint-initdb.d/
 
