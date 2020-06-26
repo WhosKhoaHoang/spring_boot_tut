@@ -1,0 +1,19 @@
+These are dockerizing instructions specifically for this app
+
+
+
+Run these two commands:
+docker build -f Dockerfile.web -t test_web:1.0 .
+docker build -f Dockerfile.db -t test_db:1.0 .
+docker-compose up
+
+
+
+TODO: Consider defining a “build” key in docker-compose.yml instead of an “image” key. This removes the step of having to manually build the images from the command line yourself each time you make new jars. In addition, you won’t have to hard-code the name of the image for the “image” key’s value. Hard-coding the name can be bad because what if you decide to name the image something else the next time you build?
+
+TODO: Implement the POST endpoint. Currently, each time you want to add a person, you need to run docker exec -it <container_id> bin/bash on the DB container and manually insert records into demo_postgres_db.person!
+
+
+
+Example API call:
+http://localhost:8080/api/v1/person
