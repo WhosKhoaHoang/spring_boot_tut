@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d77506-6126-47c9-8011-d6db3d3ec403" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/spring_boot_tut/SpringBootTutApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/spring_boot_tut/SpringBootTutApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/PersonControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/spring_boot_tut/PersonControllerTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonControllerTests">
     <configuration name="SpringBootTutApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.spring_boot_tut.SpringBootTutApplication" />
       <module name="spring_boot_tut" />
@@ -81,8 +82,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_tut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring_boot_tut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.spring_boot_tut" />
+      <option name="MAIN_CLASS_NAME" value="com.example.spring_boot_tut.PersonControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTests.testGetAllPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_tut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring_boot_tut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.spring_boot_tut" />
+      <option name="MAIN_CLASS_NAME" value="com.example.spring_boot_tut.PersonControllerTests" />
+      <option name="METHOD_NAME" value="testGetAllPeople" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTests.testGetPersonById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_tut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring_boot_tut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.spring_boot_tut" />
+      <option name="MAIN_CLASS_NAME" value="com.example.spring_boot_tut.PersonControllerTests" />
+      <option name="METHOD_NAME" value="testGetPersonById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonControllerTests" />
+        <item itemvalue="JUnit.PersonControllerTests.testGetPersonById" />
+        <item itemvalue="JUnit.PersonControllerTests.testGetAllPeople" />
         <item itemvalue="Application.SpringBootTutApplication" />
       </list>
     </recent_temporary>
@@ -133,37 +184,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="494" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1592050008425" />
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1592716650156">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom" timestamp="1593572978445">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592716650156" />
-    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1592716650155">
+    <state width="1363" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593572978445" />
+    <state width="1363" height="192" key="GridCell.Tab.0.center" timestamp="1593572978444">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592716650155" />
-    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1592716650155">
+    <state width="1363" height="192" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593572978444" />
+    <state width="1363" height="192" key="GridCell.Tab.0.left" timestamp="1593572978442">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592716650155" />
-    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1592716650156">
+    <state width="1363" height="192" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593572978442" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right" timestamp="1593572978445">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592716650156" />
+    <state width="1363" height="192" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593572978445" />
     <state x="253" y="118" key="Maven.ArtifactSearchDialog" timestamp="1592188909520">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="253" y="118" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1592188909520" />
-    <state x="206" y="35" key="SettingsEditor" timestamp="1592194607815">
+    <state x="206" y="35" key="SettingsEditor" timestamp="1593392872747">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="206" y="35" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1592194607815" />
+    <state x="206" y="35" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593392872747" />
     <state x="139" y="119" key="new project wizard" timestamp="1592373707242">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="139" y="119" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1592373707242" />
-    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1592195811689">
+    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1593501407627">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1592195811689" />
+    <state x="383" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1593501407627" />
   </component>
 </project>
